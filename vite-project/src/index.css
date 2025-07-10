@@ -12,3 +12,24 @@ body {
 .expense{
     color: red;
 }
+@media (max-width: 600px) {
+  .transaction-box,
+  .add-transaction-container,
+  .transaction-card {
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .chart-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
