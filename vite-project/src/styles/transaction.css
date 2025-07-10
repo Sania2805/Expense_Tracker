@@ -1,0 +1,52 @@
+.transactions-container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background: #f9f9f9;
+}
+
+td, th {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.edit-btn, .delete-btn {
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-btn {
+    background: hsl(45, 100%, 51%);
+    color: black;
+
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+}
+.edit-btn:hover{
+    background: hsl(45, 100%, 41%);
+}
+.edit-btn:active{
+     background: hsl(45, 100%, 61%);
+}

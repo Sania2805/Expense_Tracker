@@ -1,0 +1,85 @@
+.add-transaction-container {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.transaction-box{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.transaction-box input{
+    width: 374px;
+}
+
+.transaction-type {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.transaction-type input{
+    width: 100%;
+}
+
+.transaction-type label{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    cursor: pointer;
+}
+
+textarea{
+    width : 374px !important;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+input:focus, select:focus, textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+input:focus, select:focus, textarea:focus{
+    border: 1px solid #007bff;
+}
+
+button {
+    width: 100%;
+    background: hsl(354, 70%, 54%);
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+ button:hover{
+     background: hsl(354, 70%, 44%)
+ }
+ button:active{
+    background: hsl(354, 70%,54%)
+ }

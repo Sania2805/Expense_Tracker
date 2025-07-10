@@ -1,0 +1,64 @@
+.reports-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.date-filter {
+    margin-bottom: 20px;
+}
+
+.date-filter label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.date-filter input{
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.summary-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.income-card, .expense-card {
+    flex: 1;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0.1);
+}
+.income {
+    color: green;
+}
+.expense{
+    color: red;
+}
+.charts-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.chart-item {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 0 10px
+}
+.chart-wrapper{
+    height: 350px;
+}
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
