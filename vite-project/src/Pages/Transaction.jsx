@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../styles/Transaction.css";
+import "../styles/transaction.css";
 import { useNavigate } from "react-router-dom";
 import NoTransactions from "../Components/NoTransactions";
 
