@@ -4,16 +4,16 @@ function TransactionCards ({balance, income,  expense}){
         <div>
             <div className="balance-card">
                 <p>Current Balance</p>
-                <h1>₹{balance}</h1>
+                <h1>₹{balance.toLocaleString()}</h1>
             </div>
             <div className="summary-cards">
                 <div className="income-card">
                     <p>Total Income</p>
-                    <h3 className="income">₹{income}</h3>
+                    <h3 className="income">₹{income.toLocaleString()}</h3>
                 </div>
                 <div className="expense-card">
                     <p>Total Expense</p>
-                    <h3 className="expense">₹{expense}</h3>
+                    <h3 className="expense">₹{expense.toLocaleString()}</h3>
                 </div>
             </div>
         </div>

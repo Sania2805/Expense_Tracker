@@ -40,7 +40,7 @@ function Navbar(){
                     <Link to={'/transaction'} >📄Transaction</Link>
                 </li>
                 <li className={location.pathname=="/reports" ? "active":""}>
-                    <Link to={'/reports'} >⏳Reports</Link>
+                    <Link to={'/reports'} >📋Reports</Link>
                 </li>
                 <li >
                     <div className="quote-btn" onClick={fetchQuote}>💡Get Quote</div>
