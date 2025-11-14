@@ -1,19 +1,46 @@
-💸 Expense Tracker
+# 💸 Expense Tracker  
 
-A simple Expense Tracker web app built with React and Vite. It allows users to track income and expenses, view charts, and manage transactions easily.
+A fast and lightweight **Expense Tracker Web App** built with **React + Vite**.  
+It helps users track income & expenses, visualize spending through charts, and manage transactions effortlessly.
 
-✨ Features
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Build-blueviolet?logo=vite&logoColor=white)
 
-- Add, edit, and delete transactions
-- Categorize expenses and income
-- Interactive bar and pie charts for visualization
-- Real-time transaction updates
-- Responsive and clean UI
+---
 
-🔧 Tech Stack
+## ✨ Features
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Chart.js](https://www.chartjs.org/)
-- CSS / Custom styling
+- ➕ Add, ✏️ edit, and 🗑 delete transactions  
+- 🗂 Categorize income and expenses  
+- 📊 Interactive **Bar** and **Pie charts** using Chart.js  
+- 🔄 Real-time transaction list updates  
+- 💾 Persistent data using **LocalStorage**  
+- 📱 Fully responsive & clean UI  
+- 💬 Motivational quotes fetched via API  
 
+---
+
+## 🔧 Tech Stack
+
+- **Frontend:** React.js (Vite)  
+- **Styling:** CSS  
+- **Storage:** LocalStorage  
+- **Charts:** Chart.js  
+- **API:** Quotes API  
+
+---
+
+## 🔗 Live Demo  
+👉 **https://expense-tracker2805.netlify.app/**
+
+---
+
+## 👩‍💻 Author  
+**Sania Ghosh**  
+GitHub: https://github.com/Sania2805
+
+---
+
+## 📄 License  
+This project is licensed under the **MIT License**.
